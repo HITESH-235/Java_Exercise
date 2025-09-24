@@ -35,7 +35,7 @@ public static void parameterisedRecursion_Factorial(int n,int prod){
 // Functional Recursion: solves the problem by calling itself, without changing variables
 // Immutability; pure input dependence; no loops
 public static int functionalRecursion_SumofN(int n){
-    if (n==0) { return 0; }
+    if (n==0) { return 0; } // Base Case
     return n+functionalRecursion_SumofN(n-1);
 }
 public static int functionalRecursion_Factorial(int n) {
