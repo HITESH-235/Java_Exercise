@@ -11,7 +11,6 @@ public class Fibonacci {
         sc.close();
     }
 
-
 public static int fibonacciIterative(int n) {
     if (n==0) { return 0; }
     if (n==1) { return 1; }
@@ -24,7 +23,6 @@ public static int fibonacciIterative(int n) {
     }
     return curr;
 }
-
 
 public static int fibonacciRecursive(int n) {
     if (n==0) {return 0;}
